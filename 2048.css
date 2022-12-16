@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+hr {
+    width: 500px;
+}
+.gameOver {
+   display: none;
+}
+.container1 {
+    width: 400px;
+    height: 400px;
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    cursor:default;
+}
+.title {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+ .x2 {
+    background-color: rgb(255, 230, 199);
+    color: rgb(0, 0, 0);
+ }
+ .x4 {
+    background-color:rgb(255, 182, 86);
+    color: rgb(13, 13, 13);
+ }
+ .x8 {
+    background-color:rgb(255, 145, 1);
+    color: rgb(255, 255, 255);
+ }
+ .x16 {
+    background-color:rgb(255, 70, 70);
+    color: rgba(0, 0, 0, 0.729);
+ }
+ .x32 {
+    background-color:rgba(255, 48, 48, 0.916);
+    color: rgb(255, 255, 255);
+ }
+ .x64 {
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+ }
+.x128 {
+   background-color:rgba(255, 251, 0, 0.9);
+   color: rgba(0, 0, 0, 0.729);
+}
+.x256 {
+   background-color:rgba(255, 251, 0, 0.95);
+   color: rgba(0, 0, 0, 0.729);
+}
+.x512 {
+   background-color:rgba(255, 251, 0, 1);
+   color: rgba(0, 0, 0, 0.729);
+}
+.x1024{
+   background-color:rgba(0, 0, 0, 0.7);
+   color: rgb(255, 255, 255);
+}
+.x2048 {
+   background-color:rgba(0, 0, 0, 1);
+   color: rgb(255, 255, 255);
+}
+.x4096 {
+   background-color:rgba(0, 0, 0, 0.5);
+   color: rgb(255, 255, 255);
+}
+.x8192 {
+   background-color:rgba(0, 0, 0, 0.3);
+   color: rgb(255, 255, 255);
+}
